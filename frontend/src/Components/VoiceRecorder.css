@@ -1,0 +1,59 @@
+/* VoiceRecorder.css */
+
+.voice-recorder {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f4f4f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.controls {
+  margin-bottom: 20px;
+}
+
+.record-btn {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.record-btn:hover {
+  background-color: #45a049;
+}
+
+.loading {
+  margin: 20px 0;
+  font-size: 18px;
+  color: #ff9800;
+}
+
+.error {
+  margin: 20px 0;
+  font-size: 16px;
+  color: red;
+}
+
+.transcript {
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.transcript ul {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.transcript li {
+  margin: 5px 0;
+  padding: 5px;
+  background-color: #e1f5fe;
+  border-radius: 4px;
+}
